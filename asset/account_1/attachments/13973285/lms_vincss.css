@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&subset=vietnamese');
+
+html * {
+	font-family: 'Roboto', sans-serif;
+}
+
+li.ic-Login__sso-list__item {
+
+padding: 20px
+}
+
+li.ic-Login__sso-list__item a.Button.ic-Login__sso-button {
+	width: 100%;
+	padding: 0;
+}
+
+ul.ic-Login__sso-list:after {
+    display: block;
+    clear: both;
+    content: ' ';
+}
+
+li.ic-Login__sso-list__item a .screenreader-only {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.ic-Login-header .ic-Login-header__links {
+    display: none;
+}
+
+.ic-Login-header .ic-Login-header__logo {
+    flex: auto;
+    min-width: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+body.ic-Login-Body #footer.ic-Login-footer {
+	display: none !important;
+}
+
+footer#footer {
+    display: none !important;
+}
+
+.mobileLogin-Header {
+	display: none;
+}
+
+.ic-Form-control.ic-Form-control--login {
+    display: none;
+}
+
+.ic-Login__actions {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ic-Login__actions {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -110px;
+    text-align: center;
+}
+
+.ic-Login__sso {
+    clear: both;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.login_mobile .mobile-Login__sso {
+    clear: both;
+    text-align: center;
+}
+
+.login_mobile ul.mobile-Login__sso-list {
+    padding: 12px 0 0 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_mobile li.mobile-Login__sso-list__item {
+    list-style: none;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: var(--ic-brand-button--primary-bgd);
+}
+
+.login_mobile a.Button.Button--primary.ic-Login__sso-button.ic-Login__sso-button--google {
+    width: 100%;
+    transition: all 0.5s;
+    padding: 10px 0;
+    background: transparent;
+    color: var(--ic-brand-Login-footer-link-color);
+    border: 1px solid transparent;
+}
+
+.login_mobile span.ic-Login_icon-sso.ic-Login_icon-sso--icon-only {
+    width: 50px;
+}
+
+.login_mobile svg.ic-icon-svg.ic-icon-svg--google {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: var(--ic-brand-Login-footer-link-color);
+}
+
+.login_mobile span.screenreader-only {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+.login_mobile .ic-Form-control{
+    display: none;
+}
+.login_mobile button.Button.Button--primary.Button--block {
+    display: none;
+}
+.ic-Login__forgot, .login_mobile .forgotBlock{
+    display: none;
+}
+
+#content-wrapper #content #file_content{
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+}
+
+#catalog_content #next-link{
+    margin-right: 5%;
+    font: bold 14px Arial;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #333333;
+    padding: 6px 24px 6px 24px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 20px;
+
+}
+
+
+#catalog_content #previous-link{
+    font: bold 14px Arial;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #333333;
+    padding: 6px 24px 6px 24px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 20px;
+
+}
+
+
+.ig-header .name{
+    color: #3d454c;
+    font-size: 15px;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+    font-weight: bold;
+}
+
+
+.ig-list .ig-row a.ig-title{
+    color: #777474;
+    text-decoration: none;
+}
+
+.answer div label{
+    font-size: 16px;
+}
+.answer_label{
+    font-size: 16px;
+}
+
+.marked{
+    background-position: left;
+}
+#last_saved_indicator{
+    float: left;
+    width: 100%;
+}
+
+
+.ic-Login__actions .ic-Login__actions-timeout {
+
+flex: 1;
+display: none;
+}
+
+
+/*anti-cheat*/
+
+/* The Modal (background) */
+.modalz {
+    text-align:center;
+    font-size:25px;
+    display: block;
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius:15px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .myBtn{
+   background-color: #1176ae;
+  color: white !important;
+  padding: 15px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+
+
+  }
+
+  body:fullscreen {
+    overflow: scroll !important;
+  }
+  body:-ms-fullscreen {
+    overflow: scroll !important;
+  }
+  body:-webkit-full-screen {
+    overflow: scroll !important;
+  }
+  body:-moz-full-screen {
+    overflow: scroll !important;
+  }
+  .ic-Self-enrollment-footer__Primary{
+    flex: 1;
+  text-align:center
+  }
+
+
+  .ic-app {
+      box-sizing: border-box;
+      min-height: 100vh;
+  }
+
+  #question_list{
+   max-height:70% !important;
+   overflow:auto;
+  }
+  .time_running{
+   font-size:40px;
+   color:red;
+  }
+  #submit_quiz_button{
+  background:red;
+  color:white;
+  }
+
+
+.ic-Login-confirmation{
+    box-sizing: border-box;
+    border-radius: 24px;
+    box-shadow: 0 1px 4px 1px rgb(0 0 0 / 40%);
+    width: 400px;
+    margin: 36px auto 0;
+    width: 696px;
+    background: white;
+    max-width: 310px;
+    box-shadow: 0px 5px 15px #00000029;
+}
+.ic-Login-confirmation__header{
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.ic-Login-confirmation__logo{
+    width: 90px;
+    height: fit-content;
+}
+.ic-Login-confirmation__content{
+    padding: 0px 20px 20px 20px;
+    background: #FFFFFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align:center;
+}
+
+.ic-Login-confirmation__content p{
+    font-size: 14px;
+}
+
+.ic-Login-confirmation__actions .Button--success{
+    background: #4ccdb1; color:#ffffff; border-radius: 5px; border: none; box-shadow: none !important;
+}
+
+.module-sequence-footer-button--next{
+    float: right;
+    margin-right: 70px;
+}
+#quiz_edit_actions {
+    border: 1px solid #b6babf;
+    border-width: 1px 0;
+    padding: 12px 80px;
+    text-align: right;
+}
+
+#edit_discussion_form_buttons{
+    padding: 12px 80px;
+}
+.assignment__action-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-right: 80px;
+}
+#edit_discussion_form_buttons{
+    padding-right: 80px;
+}
+.page-edit__action_buttons{
+    display: inline-block;
+    width: unset;
+    padding-right:80px
+}
+
+.tool_content_wrapper{
+    height: 100% !important;
+}
+
+.assignment_external_tools{
+    display: none !important;
+}
